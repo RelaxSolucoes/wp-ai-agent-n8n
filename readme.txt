@@ -139,7 +139,6 @@ Versão inicial do plugin. Recomendado para todos os usuários.
 
 = Comunidade =
 * [GitHub Issues](https://github.com/relaxsolucoes/wp-ai-agent-n8n/issues)
-* [Discord](https://discord.gg/relaxsolucoes)
 
 = Suporte Técnico =
 * **Email**: chatrelaxbr@gmail.com

@@ -273,7 +273,6 @@ add_action('wp_footer', function() {
 
 ### Comunidade
 - [GitHub Issues](https://github.com/relaxsolucoes/wp-ai-agent-n8n/issues)
-- [Discord](https://discord.gg/relaxsolucoes)
 
 ### Suporte Técnico
 - **Email**: chatrelaxbr@gmail.com
