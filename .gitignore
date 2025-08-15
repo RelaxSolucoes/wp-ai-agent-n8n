@@ -1,0 +1,92 @@
+# WordPress Plugin .gitignore
+
+# Logs
+*.log
+
+# Runtime data
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage directory used by tools like istanbul
+coverage/
+
+# npm dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Bower dependencies
+bower_components/
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE specific files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Temporary files
+*.tmp
+*.temp
+
+# Backup files
+*.bak
+*.backup
+
+# WordPress specific
+wp-config.php
+wp-config-local.php
+wp-content/uploads/
+wp-content/cache/
+wp-content/backup-db/
+wp-content/advanced-cache.php
+wp-content/wp-cache-config.php
+wp-content/blogs.dir/
+wp-content/upgrade/
+wp-content/uploads/
+wp-content/wp-cache-config.php
+wp-content/plugins/hello.php
+
+# WP-CLI
+wp-cli.local.yml
+
+# Composer
+vendor/
+composer.lock
+
+# PHP errors
+error_log
+
+# Local environment variables
+.env
+.env.local
+
+# Testing
+phpunit.xml
+/tests/_output/*
+/tests/_support/_generated
+
+# Build tools
+/build/
+/dist/
+
+# Cache folders
+.cache/
+
+# Package manager
+package-lock.json
+yarn.lock
+
+# Local configuration files that shouldn't be shared
+config-local.php

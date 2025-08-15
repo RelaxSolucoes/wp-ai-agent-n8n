@@ -1,0 +1,785 @@
+/* WP AI Agent N8N - Admin Styles */
+
+/* Estilos para o menu administrativo */
+#adminmenu .toplevel_page_wp-ai-agent-n8n .wp-menu-image::before {
+    content: "\f325"; /* Código do ícone networking */
+    font-family: dashicons;
+    font-size: 20px;
+    line-height: 1.3;
+}
+
+#adminmenu .toplevel_page_wp-ai-agent-n8n:hover .wp-menu-image::before,
+#adminmenu .toplevel_page_wp-ai-agent-n8n.current .wp-menu-image::before {
+    color: #fff;
+}
+
+.wrap {
+    max-width: 1200px;
+}
+
+.wrap h1 {
+    color: #23282d;
+    font-size: 2.2em;
+    margin-bottom: 0.5em;
+}
+
+.wrap h1:before {
+    content: "🤖";
+    margin-right: 0.3em;
+    font-size: 0.9em;
+}
+
+.wrap p {
+    font-size: 1.1em;
+    color: #666;
+    margin-bottom: 2em;
+}
+
+/* Abas de navegação */
+.nav-tab-wrapper {
+    margin-bottom: 2em;
+    border-bottom: 2px solid #c3c4c7;
+}
+
+.nav-tab {
+    font-size: 1.1em;
+    padding: 12px 20px;
+    margin-right: 0.5em;
+    border: 2px solid transparent;
+    border-bottom: none;
+    background: #f6f7f7;
+    color: #50575e;
+    text-decoration: none;
+    border-radius: 4px 4px 0 0;
+    transition: all 0.3s ease;
+}
+
+.nav-tab:hover {
+    background: #fff;
+    color: #2271b1;
+    border-color: #c3c4c7;
+}
+
+.nav-tab-active {
+    background: #fff;
+    color: #2271b1;
+    border-color: #c3c4c7;
+    border-bottom-color: #fff;
+    margin-bottom: -2px;
+}
+
+/* Conteúdo das abas */
+.tab-content {
+    background: #fff;
+    padding: 2em;
+    border: 1px solid #c3c4c7;
+    border-top: none;
+    border-radius: 0 0 4px 4px;
+}
+
+.tab-pane h2 {
+    color: #23282d;
+    font-size: 1.8em;
+    margin-bottom: 1em;
+    padding-bottom: 0.5em;
+    border-bottom: 2px solid #f0f0f1;
+}
+
+.tab-pane h3 {
+    color: #1d2327;
+    font-size: 1.4em;
+    margin: 1.5em 0 1em 0;
+    padding: 0.5em 0;
+    border-left: 4px solid #2271b1;
+    padding-left: 1em;
+}
+
+.tab-pane p {
+    color: #50575e;
+    line-height: 1.6;
+    margin-bottom: 1.5em;
+}
+
+/* Seções de conexão */
+.connection-section {
+    background: #f9f9f9;
+    padding: 2em;
+    margin: 2em 0;
+    border-radius: 8px;
+    border: 1px solid #e5e5e5;
+}
+
+.connection-section h3 {
+    margin-top: 0;
+    color: #2271b1;
+}
+
+.connection-form {
+    margin-top: 1.5em;
+}
+
+/* Formulários */
+.form-table {
+    margin-top: 1em;
+}
+
+.form-table th {
+    padding: 1em 1em 1em 0;
+    width: 200px;
+    vertical-align: top;
+    font-weight: 600;
+    color: #23282d;
+}
+
+.form-table td {
+    padding: 1em 0;
+    vertical-align: top;
+}
+
+.form-table input[type="text"],
+.form-table input[type="url"],
+.form-table input[type="email"],
+.form-table textarea,
+.form-table select {
+    width: 100%;
+    max-width: 400px;
+    padding: 8px 12px;
+    border: 1px solid #8c8f94;
+    border-radius: 4px;
+    font-size: 14px;
+    line-height: 1.4;
+    transition: border-color 0.3s ease;
+}
+
+.form-table input[type="text"]:focus,
+.form-table input[type="url"]:focus,
+.form-table input[type="email"]:focus,
+.form-table textarea:focus,
+.form-table select:focus {
+    border-color: #2271b1;
+    box-shadow: 0 0 0 1px #2271b1;
+    outline: none;
+}
+
+.form-table textarea {
+    min-height: 100px;
+    resize: vertical;
+}
+
+.form-table .description {
+    margin-top: 0.5em;
+    color: #646970;
+    font-style: italic;
+    font-size: 13px;
+}
+
+/* Checkboxes */
+.form-table input[type="checkbox"] {
+    margin-right: 0.5em;
+}
+
+.form-table label {
+    font-weight: 500;
+    color: #23282d;
+}
+
+/* Botões de ação */
+.connection-actions {
+    margin: 1.5em 0;
+    padding: 1em;
+    background: #f0f6fc;
+    border-radius: 4px;
+    border-left: 4px solid #2271b1;
+}
+
+.connection-actions button {
+    margin-right: 1em;
+}
+
+.connection-result {
+    margin-top: 1em;
+    padding: 1em;
+    border-radius: 4px;
+    font-weight: 500;
+}
+
+.connection-result.success {
+    background: #d1e7dd;
+    border: 1px solid #badbcc;
+    color: #0f5132;
+}
+
+.connection-result.error {
+    background: #f8d7da;
+    border: 1px solid #f5c2c7;
+    color: #842029;
+}
+
+/* Informações de uso */
+.usage-info {
+    background: #f0f6fc;
+    padding: 1.5em;
+    border-radius: 6px;
+    border: 1px solid #c3d9f1;
+    margin: 2em 0;
+}
+
+.usage-info h3 {
+    margin-top: 0;
+    color: #2271b1;
+}
+
+.usage-info p {
+    margin: 0.5em 0;
+    color: #50575e;
+}
+
+.usage-info code {
+    background: #fff;
+    padding: 0.2em 0.4em;
+    border-radius: 3px;
+    font-family: monospace;
+    color: #d73a49;
+}
+
+/* Notices */
+.notice {
+    margin: 1.5em 0;
+    padding: 1em 1.5em;
+    border-radius: 4px;
+    border-left: 4px solid;
+}
+
+.notice-info {
+    background: #f0f6fc;
+    border-color: #2271b1;
+    color: #0c4a6e;
+}
+
+.notice-info strong {
+    color: #1e40af;
+}
+
+/* Responsividade */
+@media (max-width: 782px) {
+    .wrap {
+        margin: 1em;
+    }
+    
+    .tab-content {
+        padding: 1em;
+    }
+    
+    .connection-section {
+        padding: 1em;
+    }
+    
+    .form-table th,
+    .form-table td {
+        display: block;
+        width: 100%;
+        padding: 0.5em 0;
+    }
+    
+    .form-table th {
+        border-bottom: 1px solid #f0f0f1;
+        padding-bottom: 0.2em;
+    }
+    
+    .nav-tab {
+        font-size: 1em;
+        padding: 8px 12px;
+        margin-bottom: 0.5em;
+    }
+}
+
+/* Animações */
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(10px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+.tab-pane {
+    animation: fadeIn 0.3s ease-out;
+}
+
+/* Estados de loading */
+.spinner {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border: 2px solid #f3f3f3;
+    border-top: 2px solid #2271b1;
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+/* Melhorias visuais */
+.form-table input[type="text"]:hover,
+.form-table input[type="url"]:hover,
+.form-table input[type="email"]:hover,
+.form-table textarea:hover,
+.form-table select:hover {
+    border-color: #646970;
+}
+
+.connection-section:hover {
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    transition: box-shadow 0.3s ease;
+}
+
+/* Botões personalizados */
+.button-secondary {
+    background: #f6f7f7;
+    border-color: #2271b1;
+    color: #2271b1;
+}
+
+.button-secondary:hover {
+    background: #f0f6fc;
+    border-color: #135e96;
+    color: #135e96;
+}
+
+/* Botões pequenos */
+.button-small {
+    padding: 2px 8px;
+    font-size: 12px;
+    height: auto;
+    line-height: 1.4;
+}
+
+/* Edição inline de webhook */
+.webhook-input {
+    border: 1px solid #2271b1;
+    border-radius: 4px;
+    font-family: monospace;
+    font-size: 12px;
+}
+
+.webhook-input:focus {
+    border-color: #135e96;
+    box-shadow: 0 0 0 1px #135e96;
+    outline: none;
+}
+
+.editable-webhook {
+    cursor: pointer;
+    padding: 2px 4px;
+    border-radius: 3px;
+    transition: background-color 0.2s ease;
+}
+
+.editable-webhook:hover {
+    background-color: #f0f6fc;
+}
+
+.edit-webhook-inline,
+.save-webhook-inline,
+.cancel-webhook-inline {
+    margin-left: 5px;
+    vertical-align: middle;
+}
+
+/* Ícones e emojis */
+.nav-tab:before {
+    margin-right: 0.5em;
+}
+
+/* Estilos específicos para cada aba */
+.tab-pane.connection .connection-section:first-child {
+    border-left-color: #2271b1;
+}
+
+.tab-pane.chat .usage-info {
+    border-left-color: #00a32a;
+}
+
+.tab-pane.form .usage-info {
+    border-left-color: #dba617;
+}
+
+.tab-pane.whatsapp .notice-info {
+    border-left-color: #25d366;
+}
+
+/* ========================================
+   ESTILOS PARA INTEGRAÇÕES N8N
+   ======================================== */
+
+/* Loading das integrações */
+.wpain-loading {
+    text-align: center;
+    padding: 2em;
+    color: #646970;
+}
+
+.wpain-loading p {
+    font-size: 1.1em;
+    margin: 0;
+}
+
+/* Status das integrações */
+.n8n-integrations-status {
+    margin-top: 1em;
+}
+
+.n8n-integration-single,
+.n8n-integration-choice {
+    background: #fff;
+    border: 1px solid #c3c4c7;
+    border-radius: 8px;
+    padding: 1.5em;
+    margin-bottom: 1em;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+
+/* Estados do webhook */
+.webhook-ok {
+    color: #00a32a;
+    font-weight: 600;
+}
+
+.webhook-mismatch {
+    color: #dba617;
+    font-weight: 600;
+}
+
+.webhook-missing {
+    color: #d63638;
+    font-weight: 600;
+}
+
+/* Resumo do status */
+.n8n-status-summary {
+    background: #f8f9fa;
+    border: 1px solid #dee2e6;
+    border-radius: 8px;
+    padding: 1.5em;
+    margin-bottom: 1.5em;
+}
+
+.status-summary-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+    gap: 1em;
+    margin-bottom: 1em;
+}
+
+.summary-item {
+    text-align: center;
+    padding: 1em;
+    background: #fff;
+    border-radius: 6px;
+    border: 1px solid #e9ecef;
+}
+
+.summary-number {
+    display: block;
+    font-size: 2em;
+    font-weight: bold;
+    margin-bottom: 0.5em;
+}
+
+.summary-label {
+    font-size: 0.9em;
+    color: #6c757d;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.summary-item.total .summary-number {
+    color: #6c757d;
+}
+
+.summary-item.active .summary-number {
+    color: #00a32a;
+}
+
+.summary-item.compatible .summary-number {
+    color: #00a32a;
+}
+
+.summary-item.mismatched .summary-number {
+    color: #dba617;
+}
+
+.summary-item.missing .summary-number {
+    color: #d63638;
+}
+
+.status-recommendation {
+    padding: 1em;
+    border-radius: 6px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.status-recommendation.success {
+    background: #d1e7dd;
+    color: #0f5132;
+    border: 1px solid #badbcc;
+}
+
+.status-recommendation.warning {
+    background: #fff3cd;
+    color: #664d03;
+    border: 1px solid #ffecb5;
+}
+
+.n8n-integration-choice {
+    border-left: 4px solid #2271b1;
+}
+
+.n8n-integration-choice:hover {
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    transition: box-shadow 0.3s ease;
+}
+
+/* Status da integração */
+.integration-status p {
+    margin: 0.5em 0;
+    font-size: 1em;
+}
+
+.integration-status strong {
+    color: #23282d;
+    min-width: 80px;
+    display: inline-block;
+}
+
+/* Estados de status */
+.status-active {
+    color: #00a32a;
+    font-weight: 600;
+}
+
+.status-inactive {
+    color: #d63638;
+    font-weight: 600;
+}
+
+.webhook-ok {
+    color: #00a32a;
+    font-weight: 600;
+}
+
+.webhook-missing {
+    color: #dba617;
+    font-weight: 600;
+}
+
+/* Ações das integrações */
+.integration-actions {
+    margin-top: 1.5em;
+    padding-top: 1em;
+    border-top: 1px solid #f0f0f1;
+}
+
+.integration-actions .button {
+    margin-right: 0.5em;
+    margin-bottom: 0.5em;
+}
+
+/* Informações adicionais */
+.integration-status small {
+    color: #646970;
+    font-family: monospace;
+    background: #f6f7f7;
+    padding: 0.2em 0.4em;
+    border-radius: 3px;
+    font-size: 0.9em;
+}
+
+/* Seção de criação */
+#n8n-create-section {
+    background: #f0f9ff;
+    border: 1px solid #0ea5e9;
+    border-radius: 8px;
+    padding: 1.5em;
+    margin-top: 2em;
+}
+
+#n8n-create-section h3 {
+    color: #0c4a6e;
+    margin-top: 0;
+}
+
+#n8n-create-section p {
+    color: #0369a1;
+}
+
+/* Notificações */
+.notice {
+    border-radius: 6px;
+    border-left-width: 4px;
+}
+
+.notice-success {
+    border-left-color: #00a32a;
+}
+
+.notice-error {
+    border-left-color: #d63638;
+}
+
+.notice-warning {
+    border-left-color: #dba617;
+}
+
+/* Grid de integrações */
+.integrations-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.integration-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    background: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.2s ease;
+}
+
+.integration-card:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+.integration-card.enabled {
+    border-left: 4px solid #28a745;
+}
+
+.integration-card.disabled {
+    border-left: 4px solid #dc3545;
+}
+
+.integration-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.integration-header h4 {
+    margin: 0;
+    color: #333;
+    font-size: 18px;
+}
+
+.status-badge {
+    padding: 4px 8px;
+    border-radius: 4px;
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.status-badge.enabled {
+    background: #d4edda;
+    color: #155724;
+}
+
+.status-badge.disabled {
+    background: #f8d7da;
+    color: #721c24;
+}
+
+.integration-details {
+    margin-bottom: 20px;
+}
+
+.integration-details p {
+    margin: 5px 0;
+    font-size: 14px;
+    line-height: 1.4;
+}
+
+.webhook-match {
+    color: #28a745;
+    font-weight: bold;
+}
+
+.webhook-mismatch {
+    color: #ffc107;
+    font-weight: bold;
+}
+
+.integration-actions {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.integration-actions .button {
+    flex: 1;
+    min-width: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+/* Campos readonly */
+input[readonly] {
+    background-color: #f8f9fa;
+    color: #6c757d;
+    cursor: not-allowed;
+}
+
+/* Seção de criação */
+.create-integration {
+    background: #f8f9fa;
+    border: 1px solid #dee2e6;
+    border-radius: 8px;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.create-integration h3 {
+    color: #495057;
+    margin-top: 0;
+    font-size: 20px;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    .n8n-integration-single,
+    .n8n-integration-choice {
+        padding: 1em;
+    }
+    
+    .integration-actions .button {
+        display: block;
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 0.5em;
+    }
+    
+    .integration-status strong {
+        display: block;
+        margin-bottom: 0.2em;
+    }
+    
+    .integrations-grid {
+        grid-template-columns: 1fr;
+        gap: 15px;
+    }
+    
+    .integration-actions {
+        flex-direction: column;
+    }
+    
+    .integration-actions .button {
+        width: 100%;
+        min-width: auto;
+    }
+}

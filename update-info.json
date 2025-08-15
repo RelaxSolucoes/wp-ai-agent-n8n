@@ -1,0 +1,23 @@
+{
+    "name": "WP AI Agent N8N",
+    "version": "1.0.0",
+    "download_url": "https://github.com/RelaxSolucoes/wp-ai-agent-n8n/releases/latest/download/wp-ai-agent-n8n.zip",
+    "requires": "5.8",
+    "requires_php": "7.4",
+    "tested": "6.4",
+    "last_updated": "2024-01-01",
+    "sections": {
+        "description": "Plugin WordPress para integração com Agente de IA via N8N e Evolution API. Inclui chat widget, formulário de contato e validação de WhatsApp.",
+        "installation": "1. Faça upload do plugin para a pasta /wp-content/plugins/\n2. Ative o plugin através do menu 'Plugins' no WordPress\n3. Configure as opções em 'AI Agent N8N' no menu administrativo",
+        "changelog": "## 1.0.0\n* Versão inicial do plugin\n* Chat widget integrado com N8N\n* Formulário de contato personalizável\n* Validação de WhatsApp via Evolution API\n* Sistema de atualizações automáticas\n* Interface administrativa completa",
+        "screenshots": {
+            "1": "https://raw.githubusercontent.com/RelaxSolucoes/wp-ai-agent-n8n/main/assets/screenshots/admin-settings.png",
+            "2": "https://raw.githubusercontent.com/RelaxSolucoes/wp-ai-agent-n8n/main/assets/screenshots/chat-widget.png",
+            "3": "https://raw.githubusercontent.com/RelaxSolucoes/wp-ai-agent-n8n/main/assets/screenshots/contact-form.png"
+        }
+    },
+    "banners": {
+        "low": "https://raw.githubusercontent.com/RelaxSolucoes/wp-ai-agent-n8n/main/assets/banners/banner-772x250.png",
+        "high": "https://raw.githubusercontent.com/RelaxSolucoes/wp-ai-agent-n8n/main/assets/banners/banner-1544x500.png"
+    }
+}
