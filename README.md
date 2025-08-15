@@ -61,9 +61,16 @@ O **WP AI Agent N8N** é um plugin WordPress profissional que permite integrar s
 
 ### 📱 Aba do WhatsApp
 
-> ⚠️ **Funcionalidade em Desenvolvimento**
-> 
-> Esta funcionalidade será implementada em versões futuras do plugin.
+#### Configurações
+- **Ativar WhatsApp**: Habilita a integração com WhatsApp via Evolution API
+- **Envio Automático**: Mensagens podem ser enviadas automaticamente via WhatsApp
+- **Integração Evolution API**: Utiliza a Evolution API configurada na aba de Conexão
+
+#### Como Funciona
+- O plugin se integra com a Evolution API para envio de mensagens
+- Respostas do N8N podem ser automaticamente enviadas via WhatsApp
+- Suporte completo para formatação de mensagens
+- Controle de instâncias WhatsApp através da configuração
 
 ## 🔧 Uso Avançado
 
