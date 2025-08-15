@@ -276,7 +276,7 @@ add_action('wp_footer', function() {
 - [Discord](https://discord.gg/relaxsolucoes)
 
 ### Suporte Técnico
-- **Email**: suporte@relaxsolucoes.online
+- **Email**: chatrelaxbr@gmail.com
 - **Website**: https://relaxsolucoes.online
 
 ## 📄 Licença
