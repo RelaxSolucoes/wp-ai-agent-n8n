@@ -5,11 +5,11 @@
     "requires": "5.8",
     "requires_php": "7.4",
     "tested": "6.4",
-    "last_updated": "2024-12-19",
+    "last_updated": "2025-08-15",
     "sections": {
         "description": "Plugin WordPress para integração com Agente de IA via N8N e Evolution API. Inclui chat widget, formulário de contato e validação de WhatsApp.",
         "installation": "1. Faça upload do plugin para a pasta /wp-content/plugins/\n2. Ative o plugin através do menu 'Plugins' no WordPress\n3. Configure as opções em 'AI Agent N8N' no menu administrativo",
-        "changelog": "## 1.0.0 - 2024-12-19\n\n### 🎉 Lançamento Inicial\n* Chat widget interativo com N8N\n* Formulário de contato personalizável\n* Integração completa com Evolution API\n* Sistema de atualizações automáticas\n* Interface administrativa organizada\n* Shortcodes flexíveis [wpain_chat] e [wpain_form]\n* API JavaScript para controle programático\n* Segurança robusta com nonces e sanitização\n* Suporte completo para WhatsApp\n* Design responsivo e moderno\n\n### 🔧 Recursos Técnicos\n* Requisitos: WordPress 5.8+, PHP 7.4+\n* Compatível com temas e plugins\n* Suporte SSL/HTTPS\n* Arquitetura orientada a objetos",
+        "changelog": "## 1.0.0 - 2025-08-15\n\n### 🎉 Lançamento Inicial\n* Chat widget interativo com N8N\n* Formulário de contato personalizável\n* Integração completa com Evolution API\n* Sistema de atualizações automáticas\n* Interface administrativa organizada\n* Shortcodes flexíveis [wpain_chat] e [wpain_form]\n* API JavaScript para controle programático\n* Segurança robusta com nonces e sanitização\n* Suporte completo para WhatsApp\n* Design responsivo e moderno\n\n### 🔧 Recursos Técnicos\n* Requisitos: WordPress 5.8+, PHP 7.4+\n* Compatível com temas e plugins\n* Suporte SSL/HTTPS\n* Arquitetura orientada a objetos",
         "screenshots": {
             "1": "https://raw.githubusercontent.com/RelaxSolucoes/wp-ai-agent-n8n/main/assets/screenshots/admin-settings.png",
             "2": "https://raw.githubusercontent.com/RelaxSolucoes/wp-ai-agent-n8n/main/assets/screenshots/chat-widget.png",
